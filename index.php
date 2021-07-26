@@ -10,7 +10,7 @@
     <div class="calcImp">
         <form action="" method="POST">
             Valor do Produto: <input type="text" name="valor">
-            taxa de impostos em (%5): <input type="text" name="imposto">
+            taxa de impostos em (%): <input type="text" name="imposto">
             <input type="submit" value="consultar" name="consultar">
         </form>
     </div>
