@@ -38,6 +38,7 @@
      if (isset($_POST['enviarNum'])) {
          $num  = $_POST['array'];
          $numArray = explode(" ", $num);
+         asort($numArray);
          foreach ($numArray as $item) {
              echo "$item <br>";
          }
